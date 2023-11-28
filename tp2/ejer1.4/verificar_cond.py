@@ -13,4 +13,3 @@ def numeros(a,b):
     return a + b
 
 print(f"El resultado de la suma es: ", numeros(-3,6))
-

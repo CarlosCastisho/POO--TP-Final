@@ -1,9 +1,9 @@
-class Entrar_Salir:
+class Cambiar_Dev:
     def __init__(self):
         pass
     
     def __enter__(self):
-        print("Modificando Eventos")
+        print("Cambiando el directorio")
         return self
 
     def __exit__(self, type, value, traceback):
